@@ -3,8 +3,8 @@
 
  # gem "rails"
 
- gem 'activerecord', :require => 'active_record'
- gem 'rake'
+ gem 'activerecord', '>= 6.1.7.3', :require => 'active_record'
+ gem 'rake', '>= 12.3.3'
  gem 'require_all'
 gem 'sqlite3', '~>1.3.6'
  gem 'pry'
